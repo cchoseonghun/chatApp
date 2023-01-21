@@ -76,7 +76,7 @@ function Chat() {
 }
 
 const Container = styled.div`
-  height: 100vh;
+  height: -webkit-fill-available;
   width: 100vw;
   display: flex;
   flex-direction: column;
