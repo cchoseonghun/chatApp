@@ -12,7 +12,7 @@ interface ISetAvatar {
   isSet: boolean;
 }
 
-export const host = "http://localhost:5000";
+export const host = "https://chatapp-90k1.onrender.com/";
 
 const API = axios.create({
   baseURL: host,
