@@ -31,7 +31,7 @@ const server = app.listen(process.env.PORT, () => {
 });
 const io = socket(server, {
     cors: {
-        origin: "https://chatapp-90k1.onrender.com/",
+        origin: "https://chat-app-teal-iota.vercel.app/",
         credentials: true,
     },
 });
