@@ -1,6 +1,8 @@
 import axios, { AxiosResponse } from "axios";
 import { User } from "../interfaces";
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 interface ILogin {
   status?: boolean;
   user?: User;
@@ -12,7 +14,7 @@ interface ISetAvatar {
   isSet: boolean;
 }
 
-export const host = "https://chatapp-90k1.onrender.com/";
+export const host = `${API_URL}`;
 
 const API = axios.create({
   baseURL: host,
